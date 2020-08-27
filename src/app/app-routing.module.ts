@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {NavComponent} from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
-import {ListComponent} from './list/list.component'
+import {ListComponent} from './list/list.component';
 
 
 
