@@ -10,7 +10,6 @@ const routes: Routes = [
   { path: 'nav', component: NavComponent},
   { path: '', component: HomeComponent},
   { path: 'list', component: ListComponent},
-  
 ];
 
 @NgModule({
