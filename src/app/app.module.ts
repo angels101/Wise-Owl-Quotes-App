@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
+import { FormsModule } from '@angular/forms';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { ListComponent } from './list/list.component';
     AppRoutingModule,
     NgbModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MatSliderModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
