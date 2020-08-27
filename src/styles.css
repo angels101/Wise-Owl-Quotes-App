@@ -13,7 +13,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
  }
 
  header {
-     background-color: rgb(176, 230, 214);
+     background-color: rgba(11, 47, 56, 0.685);
      padding: 1em 0;
  }
 a {
@@ -41,8 +41,9 @@ display: flex;
     li a {
             padding: 1em;
     
-                 &:hover at {
-                    background-color: darken($primary, 10%);
+    
+         ::hover at {
+                    background-color: red($primary, 10%);
       
                  }
     
